@@ -37,7 +37,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /health-cx-family-medicine
+          NEXT_PUBLIC_BASE_PATH: /health-cx
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

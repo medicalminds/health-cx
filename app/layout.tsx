@@ -4,8 +4,7 @@ import './globals.css';
 const title = 'Health CX Family Medicine | Hospitals, Clinics & Specialty Care';
 const description =
   'Connected primary, specialty and hospital care for families across the Front Range.';
-const siteOrigin =
-  'https://medicalminds.github.io/health-cx-family-medicine';
+const siteOrigin = 'https://medicalminds.github.io/health-cx';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
